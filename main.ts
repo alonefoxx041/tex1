@@ -1,0 +1,18 @@
+music.playTone(587, music.beat(BeatFraction.Whole))
+music.rest(music.beat(BeatFraction.Whole))
+music.playTone(523, music.beat(BeatFraction.Half))
+music.playTone(587, music.beat(BeatFraction.Half))
+music.playTone(784, music.beat(BeatFraction.Half))
+music.playTone(880, music.beat(BeatFraction.Half))
+music.playTone(988, music.beat(BeatFraction.Half))
+music.playTone(880, music.beat(BeatFraction.Whole))
+music.rest(music.beat(BeatFraction.Half))
+music.playTone(988, music.beat(BeatFraction.Half))
+music.playTone(880, music.beat(BeatFraction.Half))
+music.playTone(698, music.beat(BeatFraction.Half))
+music.playTone(698, music.beat(BeatFraction.Half))
+music.playTone(587, music.beat(BeatFraction.Half))
+music.playTone(523, music.beat(BeatFraction.Half))
+basic.forever(function () {
+	
+})
